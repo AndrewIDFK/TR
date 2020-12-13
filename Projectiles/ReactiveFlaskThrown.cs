@@ -141,7 +141,7 @@ namespace TR.Projectiles
 			else if (typeNeon)
 			{
 				Main.PlaySound(SoundID.Item92, projectile.position);
-				Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, 0, 0, 443, projectile.damage * 2, projectile.knockBack, projectile.owner, 0f, 0f);
+				Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, 0, 0, mod.ProjectileType("NeonRelease"), projectile.damage * 2, projectile.knockBack, projectile.owner, 0f, 0f);
 			}
 			else
 			{
