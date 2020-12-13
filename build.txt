@@ -1,0 +1,3 @@
+displayName = Toxic Reactions
+author = AndrewIDFK
+version = 0.1
